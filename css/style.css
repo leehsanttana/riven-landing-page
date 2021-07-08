@@ -546,7 +546,7 @@ footer ul li a {
   .info-class {
     grid-template-columns: 1fr;
     gap: 60px;
-    margin-top: 280px;
+    margin-top: 80px;
   }
 
   .class img {
@@ -678,7 +678,6 @@ footer ul li a {
   .skins-section {
     padding: 60px 20px 100px;
     grid-template-columns: 1fr;
-    height: 100vh;
   }
 
   .skins-section h2 {
