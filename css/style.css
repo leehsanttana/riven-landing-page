@@ -657,10 +657,6 @@ footer ul li a {
     grid-template-columns: 1fr;
   }
 
-  .abilities-description {
-    height: 100px;
-  }
-
   .abilities-section h2 {
     font-size: 2rem;
   }
