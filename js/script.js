@@ -10,6 +10,8 @@ const wallpaperList = document.querySelectorAll('.wallpaper-list li');
 const navbar = document.querySelectorAll('.navbar ul li');
 const sections = document.querySelectorAll('.sections');
 
+const btn = document.querySelector('.btn');
+
 function navigateSections() {
 
   navbar[0].classList.add('active');
@@ -28,6 +30,14 @@ function navigateSections() {
     navbar[i].classList.add('active');
     sections[i].classList.add('active');
   }
+
+  btn.addEventListener('click', () => {
+    navbar[1].classList.add('active');
+    sections[1].classList.add('active');
+
+    navbar[0].classList.remove('active');
+  });
+  
 
   navbar.forEach((item, i) => {
     item.addEventListener('click', () => {
@@ -114,33 +124,4 @@ function skinsTab(){
 
 skinsTab();
 
-// function scrollInternalLink() {
-//   const links = document.querySelectorAll('a[href^="#"]');
-
-//   function getScrollTopByHref(element) {
-//     const id = element.getAttribute('href');
-//     return document.querySelector(id).offsetTop;
-//   }
-
-//   function scrollToPosition(to) {
-//     window.scroll({
-//       top: to,
-//       behavior: 'smooth',
-//     });
-//   }
-
-//   function scrollToIdOnClick(event) {
-//     event.preventDefault();
-//     const to = getScrollTopByHref(event.currentTarget) - 0;
-//     scrollToPosition(to);
-//     navbar.classList.remove('active-menu');
-//     btnMenu.classList.remove('active-btn');
-//   }
-
-//   links.forEach((links, i) => {
-//     links.addEventListener('click', scrollToIdOnClick);
-//   });
-// }
-
-// scrollInternalLink();
 
