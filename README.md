@@ -47,7 +47,7 @@ Foi desenvolvido diretamente no código.</p>
 <h3>Sessão Skins:</h3>
 <img src="https://live.staticflickr.com/65535/51298269538_8bf4720965_h.jpg" />
 
-<h2 id="auto">Autor do Projeto:</h2>
+<h2 id="autor">Autor do Projeto:</h2>
 
 <h3>Leonam da Silva Santana (EU 😂)</h3>
 
